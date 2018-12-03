@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mimi Exchange</title>
+    <link rel="stylesheet" href="css/jquery.dynatable.css">
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.dynatable.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      $(function() {
+        $('#items').dynatable();
+      });
+    </script>
+    <table id="items">
+      <tr><th>Namespace</th><th>Component</th><th>Description</th></tr>
+      ${items}
+    </table>
+  </body>
+</html>

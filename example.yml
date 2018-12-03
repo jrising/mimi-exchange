@@ -1,0 +1,12 @@
+ - namespace: AWASH
+   name: Reservoir
+   parameters:
+     inflowsgauges: gauges x scenarios x time [1000 m^3]
+     outflowsgauges: gauges x scenarios x time [1000 m^3]
+     captures: reservoirs x scenarios x time [1000 m^3]
+   variables:
+     inflows: reservoirs x scenarios x time [1000 m^3]
+     outflows: reservoirs x scenarios x time [1000 m^3]
+ - namespace: AWASH
+   name: UnivariateAgriculture
+   description: Agricultural production with no management options.
